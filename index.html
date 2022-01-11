@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f6a8e2bea6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1 id="logo">Imagine</h1>
+        <nav-links>
+            <a href="#slideshow-container"><h3>Home</h3></a>
+            <a href="#about"><h3>About</h3></a>
+            <a href="#services"><h3>Services</h3></a>
+            <a href="#gallery"><h3>Gallery</h3></a>
+            <a href="#testimonials"><h3>Testimonials</h3></a>
+            <a href="#contact"><h3>Contact</h3></a>
+        </nav-links>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div id="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="images/img19.jpeg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/img10.jpeg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/img11.jpeg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/img9.jpeg">
+      </div>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <i class="fas fa-arrow-left" id="prev" onclick="plusSlides(-1)"></i>
+      <i class="fas fa-arrow-right" id="next" onclick="plusSlides(+1)"></i>
+      
+    </div>
+
+    <div id="about">
+      <img src="images/img8.jpeg">
+
+      <div class="text">
+        <h3>About</h3>
+        <p>Imagine Design and Construction has more than 20 years of experience designing and building residential and commercial  projects in the Rio Grande Valley, Houston, San Antonio areas.</p>
+      </div>
+    </div>
+
+    <div id="services" class="heading">
+      <h1>Services</h1>
+    </div>
+
+    <div class="services">
+      <div class="box">
+        <img src="images/img9.jpeg">
+        <h3>House plans</h3>
+        <p>We have experience in traditional or contemporary house plans, we have completed more than 200 house plans in our area.</p>
+      </div>
+      
+      <div class="box">
+        <img src="images/img11.jpeg">
+        <h3>Commercial plans</h3>
+        <p>We have experience in office, retail, restaurant plans, as well as commercial centers.</p>
+      </div>
+
+      <div class="box">
+        <img src="images/img18.jpeg">
+        <h3>Construction Management</h3>
+        <p>We have experience in residential or commercial construction from the ground up.</p>
+      </div>
+    </div>
+
+    <div id="gallery" class="heading">
+      <h1>Gallery</h1>
+    </div>
+
+    <div class="grid">
+      <img src="images/img1.jpeg">
+      <img src="images/img2.jpeg">
+      <img src="images/img3.jpeg">
+      <img src="images/img4.jpeg">
+      <img src="images/img5.jpeg">
+      <img src="images/img6.jpeg">
+      <img src="images/img7.jpeg">
+      <img src="images/img8.jpeg">
+      <img src="images/img9.jpeg">
+      <img src="images/img10.jpeg">
+      <img src="images/img11.jpeg">
+      <img src="images/img12.jpeg">
+      <img src="images/img13.jpeg">
+      <img src="images/img14.jpeg">
+      <img src="images/img15.jpeg">
+      <img src="images/img16.jpeg">
+      <img src="images/img17.jpeg">
+      <img src="images/img20.jpeg">
+      <img src="images/img21.jpeg">
+    </div>
+
+    <div id="testimonials" class="heading">
+      <h1>Testimonials</h1>
+    </div>
+
+    <div class="testimonial">
+      <h3 class="name">David Villarreal</h3>
+      <div id="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+      </div>
+      <p class="message">"Extremely happy with results. Awesome customer service. Very helpful and always with a great attitude. Looking forward to the next one."</p>
+    </div>
+
+    <div class="testimonial">
+      <h3 class="name">Amy Burton</h3>
+      <div id="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+      </div>
+      <p class="message">"Prompt response time. I loved that he communicates great by text. (I prefer texting over calling). I told him what I wanted on my house plan and he did a great job putting it all together."</p>
+    </div>
+
+    <div class="testimonial">
+      <h3 class="name">Honey Holifield</h3>
+      <div id="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+      </div>
+      <p class="message">"Guillermo was very easy to work with and quick with responses to questions and revisions.  Very reasonably priced as well.  Would definitely work with him again and recommend him to anyone."</p>
+    </div>
+
+    <div class="testimonial">
+      <h3 class="name">Miguel Caudillo</h3>
+      <div id="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+      </div>
+      <p class="message">"Muy buen trabajo, me encanto la atención y profesionalismo, Muchas gracias!"</p>
+    </div>
+
+    <div class="testimonial">
+      <h3 class="name">Edgar Barrera</h3>
+      <div id="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+      </div>
+      <p class="message">"Excelente trabajo y profesionalismo. Muy recomendable. Gracias Guillermo!"</p>
+    </div>
+    
+    <div id="contact" class="heading">
+      <h1>Contact</h1>
+    </div>
+
+    <div class="container">
+      <div class="wrapper">
+        <div class="company-info">
+          <h3>Imagine</h3>
+          <ul>
+            <div>(956) 566-4097</div>
+            <li><a href="https://www.facebook.com/imaginedc" target="_black"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></a> @imaginedc</li>
+            <li><a href="https://api.whatsapp.com/send?phone=+1%20(956)%20566-4097" target="_black"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/></svg></a> (956) 566-4097</li>
+            <li><a href="mailto:imaginergv@yahoo.com"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg></a> imaginergv@yahoo.com</li>
+          </ul>
+        </div>
+  
+        <div class="contact">
+          <h3>Send us a message</h3>
+          <div class="alert">Your message has been sent</div>
+          <form id="contactForm">
+            <p>
+              <label>Name</label>
+              <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+              <label>Company</label>
+              <input type="text" name="company" id="company">
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="text" name="phone" id="phone">
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="5" id="message"></textarea>
+            </p>
+            <p class="full">
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer">
+      <p>© 2023 by Imagine Design and Construction.</p>
+    </div>
+  
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+     <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+   
+  
+</body>
+</html>
